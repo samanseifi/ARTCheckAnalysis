@@ -1,0 +1,496 @@
+24-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 FAIL		PASS		FAIL
+2018:	 FAIL		PASS		FAIL
+
+22-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		PASS		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+72-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		PASS
+
+41-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+54-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 PASS		PASS		FAIL
+
+62-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 FAIL		PASS		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+19-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 FAIL		PASS		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+15-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		PASS
+
+46-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+35-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 PASS		PASS		FAIL
+2018:	 FAIL		PASS		FAIL
+
+60-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 FAIL		PASS		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+11-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+23-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+10-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+25-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 FAIL		PASS		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+66-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 PASS		PASS		FAIL
+2018:	 FAIL		PASS		FAIL
+
+8-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		PASS
+
+52-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 PASS		FAIL		FAIL
+2015:	 PASS		PASS		FAIL
+2016:	 PASS		PASS		FAIL
+2017:	 PASS		PASS		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+55-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+73-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+6-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+18-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 FAIL		PASS		FAIL
+2018:	 FAIL		FAIL		PASS
+
+49-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+42-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 PASS		FAIL		FAIL
+2015:	 PASS		FAIL		FAIL
+2016:	 PASS		PASS		FAIL
+2017:	 PASS		PASS		FAIL
+2018:	 FAIL		PASS		FAIL
+
+34-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 FAIL		PASS		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+61-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 PASS		PASS		FAIL
+2015:	 PASS		PASS		FAIL
+2016:	 PASS		PASS		FAIL
+2017:	 FAIL		PASS		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+36-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 FAIL		PASS		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+37-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+20-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+57-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+67-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 PASS		PASS		FAIL
+2018:	 FAIL		PASS		FAIL
+
+47-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+9-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+63-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 PASS		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 FAIL		PASS		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+17-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		PASS		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+5-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+26-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 FAIL		PASS		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+21-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 FAIL		PASS		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+74-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+7-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+75-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+45-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+2-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+68-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+4-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 FAIL		PASS		FAIL
+2018:	 FAIL		FAIL		PASS
+
+71-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		PASS
+
+64-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 PASS		PASS		FAIL
+2018:	 FAIL		PASS		FAIL
+
+44-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+58-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+12-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+16-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+69-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+3-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		PASS
+
+70-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+1-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+65-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 PASS		PASS		FAIL
+2018:	 FAIL		PASS		FAIL
+
+28-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 FAIL		PASS		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+27-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		PASS
+
+13-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+51-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		PASS		FAIL
+2015:	 FAIL		PASS		FAIL
+2016:	 FAIL		PASS		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+50-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		FAIL
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+
+56-ARTRollout.xls
+Year	 In Care%	 Suppr. VL%	 In Care in 30 days% 
+2014:	 FAIL		FAIL		FAIL
+2015:	 FAIL		FAIL		FAIL
+2016:	 FAIL		FAIL		PASS
+2017:	 FAIL		FAIL		FAIL
+2018:	 FAIL		FAIL		FAIL
+

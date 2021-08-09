@@ -1,0 +1,956 @@
+CEPAC COST SUMMARY
+		Total	Ever HIV+	Ever Detected	Ever in Care	Ever on 1st line ART	 Ever on 2nd line ART
+	Num Patients	90195	462	430	430	260	20
+	Observed CD4 Distribution	CD4vhi	CD4_hi	CD4mhi	CD4mlo	CD4_lo	CD4vlo
+	Patients in Linkage Month	0	0	0	0	0	0
+	Patients in ART Initiation Month	3	34	170	28	13	12
+	Gender Distribution	male	female
+	Patients in Linkage Month	284	146
+	Patients in ART Initiation Month	179	81
+	Age Distribution	<15	15-19	20-24	25-29	30-34	35-39	40-44	45-49	>50
+	Patients in Linkage Month	0	48	62	51	73	59	58	79	0
+	Patients in ART Initiation Month	0	0	6	36	43	32	33	45	65
+
+Discounted	Discounting Rate	0.03	Obsv CD4	CD4All
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Total Patient Mths	21309943.50	21244420.54	65522.95	3395.76	17421.63	17432.82	10764.76	16507.99	14097.22	3335.60	359.53	16314.44	1118.38
+	Total Costs	1774934.53	0.00	1774934.53	8543.94	373225.80	442820.21	448491.19	501853.40	371401.70	71418.50	8423.23	401929.64	40890.56
+	ART Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Prophylaxis Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs	1762324.20	0.00	1762324.20	8543.94	373225.80	430209.87	448491.19	501853.40	360021.78	70188.10	8423.23	390019.22	40190.65
+	Routine Care Costs Direct Medical	1762324.20	0.00	1762324.20	8543.94	373225.80	430209.87	448491.19	501853.40	360021.78	70188.10	8423.23	390019.22	40190.65
+	Routine Care Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Toxicity Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs	12610.33	0.00	12610.33	0.00	0.00	12610.33	0.00	0.00	11379.93	1230.41	0.00	11910.42	699.92
+	Death Costs Direct Medical	12610.33	0.00	12610.33	0.00	0.00	12610.33	0.00	0.00	11379.93	1230.41	0.00	11910.42	699.92
+	Death Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	TB Treatment Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+Discounted	Discounting Rate	0.03	Obsv CD4	CD4Unknown
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Total Patient Mths	21247391.86	21244420.54	2971.32	2971.32	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Total Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	ART Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Prophylaxis Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Toxicity Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	TB Treatment Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+Discounted	Discounting Rate	0.03	Obsv CD4	CD4vhi
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Total Patient Mths	47375.44	0.00	47375.44	424.44	14024.76	11222.21	7846.07	13857.96	8263.35	2958.86	198.88	10744.66	477.55
+	Total Costs	1184406.15	0.00	1184406.15	8543.94	282329.76	231550.00	267684.79	394297.66	170757.74	60792.27	4003.50	221527.08	10022.93
+	ART Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Prophylaxis Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs	1178763.30	0.00	1178763.30	8543.94	282329.76	225907.15	267684.79	394297.66	166345.30	59561.86	4003.50	216292.98	9614.18
+	Routine Care Costs Direct Medical	1178763.30	0.00	1178763.30	8543.94	282329.76	225907.15	267684.79	394297.66	166345.30	59561.86	4003.50	216292.98	9614.18
+	Routine Care Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Toxicity Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs	5642.85	0.00	5642.85	0.00	0.00	5642.85	0.00	0.00	4412.44	1230.41	0.00	5234.10	408.75
+	Death Costs Direct Medical	5642.85	0.00	5642.85	0.00	0.00	5642.85	0.00	0.00	4412.44	1230.41	0.00	5234.10	408.75
+	Death Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	TB Treatment Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+Discounted	Discounting Rate	0.03	Obsv CD4	CD4_hi
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Total Patient Mths	11390.59	0.00	11390.59	0.00	3310.03	3634.91	1881.04	2564.60	3371.97	262.94	132.96	3344.42	290.49
+	Total Costs	394780.30	0.00	394780.30	0.00	88121.64	98004.18	105994.40	102660.07	91009.33	6994.85	3539.28	90271.39	7732.79
+	ART Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Prophylaxis Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs	393532.77	0.00	393532.77	0.00	88121.64	96756.65	105994.40	102660.07	89761.81	6994.85	3539.28	89023.86	7732.79
+	Routine Care Costs Direct Medical	393532.77	0.00	393532.77	0.00	88121.64	96756.65	105994.40	102660.07	89761.81	6994.85	3539.28	89023.86	7732.79
+	Routine Care Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Toxicity Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs	1247.53	0.00	1247.53	0.00	0.00	1247.53	0.00	0.00	1247.53	0.00	0.00	1247.53	0.00
+	Death Costs Direct Medical	1247.53	0.00	1247.53	0.00	0.00	1247.53	0.00	0.00	1247.53	0.00	0.00	1247.53	0.00
+	Death Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	TB Treatment Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+Discounted	Discounting Rate	0.03	Obsv CD4	CD4mhi
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Total Patient Mths	3129.23	0.00	3129.23	0.00	86.84	2117.16	878.03	47.21	2003.36	113.80	27.70	1930.20	186.96
+	Total Costs	129362.99	0.00	129362.99	0.00	2774.40	68446.71	56633.65	1508.23	64815.32	3631.39	880.45	62473.45	5973.26
+	ART Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Prophylaxis Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs	128547.32	0.00	128547.32	0.00	2774.40	67631.03	56633.65	1508.23	63999.65	3631.39	880.45	61657.78	5973.26
+	Routine Care Costs Direct Medical	128547.32	0.00	128547.32	0.00	2774.40	67631.03	56633.65	1508.23	63999.65	3631.39	880.45	61657.78	5973.26
+	Routine Care Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Toxicity Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs	815.67	0.00	815.67	0.00	0.00	815.67	0.00	0.00	815.67	0.00	0.00	815.67	0.00
+	Death Costs Direct Medical	815.67	0.00	815.67	0.00	0.00	815.67	0.00	0.00	815.67	0.00	0.00	815.67	0.00
+	Death Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	TB Treatment Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+Discounted	Discounting Rate	0.03	Obsv CD4	CD4mlo
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Total Patient Mths	437.69	0.00	437.69	0.00	0.00	333.37	83.72	20.60	333.37	0.00	0.00	255.84	77.53
+	Total Costs	34207.41	0.00	34207.41	0.00	0.00	25330.27	7450.60	1426.54	25330.27	0.00	0.00	19960.44	5369.84
+	ART Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Prophylaxis Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs	31940.62	0.00	31940.62	0.00	0.00	23063.48	7450.60	1426.54	23063.48	0.00	0.00	17693.65	5369.84
+	Routine Care Costs Direct Medical	31940.62	0.00	31940.62	0.00	0.00	23063.48	7450.60	1426.54	23063.48	0.00	0.00	17693.65	5369.84
+	Routine Care Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Toxicity Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs	2266.79	0.00	2266.79	0.00	0.00	2266.79	0.00	0.00	2266.79	0.00	0.00	2266.79	0.00
+	Death Costs Direct Medical	2266.79	0.00	2266.79	0.00	0.00	2266.79	0.00	0.00	2266.79	0.00	0.00	2266.79	0.00
+	Death Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	TB Treatment Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+Discounted	Discounting Rate	0.03	Obsv CD4	CD4_lo
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Total Patient Mths	65.83	0.00	65.83	0.00	0.00	31.94	24.69	9.19	31.94	0.00	0.00	9.38	22.56
+	Total Costs	5536.52	0.00	5536.52	0.00	0.00	2212.42	2687.54	636.56	2212.42	0.00	0.00	649.62	1562.81
+	ART Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Prophylaxis Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs	5536.52	0.00	5536.52	0.00	0.00	2212.42	2687.54	636.56	2212.42	0.00	0.00	649.62	1562.81
+	Routine Care Costs Direct Medical	5536.52	0.00	5536.52	0.00	0.00	2212.42	2687.54	636.56	2212.42	0.00	0.00	649.62	1562.81
+	Routine Care Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Toxicity Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	TB Treatment Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+Discounted	Discounting Rate	0.03	Obsv CD4	CD4vlo
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Total Patient Mths	152.86	0.00	152.86	0.00	0.00	93.23	51.20	8.43	93.23	0.00	0.00	29.94	63.29
+	Total Costs	26641.16	0.00	26641.16	0.00	0.00	17276.62	8040.21	1324.33	17276.62	0.00	0.00	7047.67	10228.95
+	ART Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Prophylaxis Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs	24003.67	0.00	24003.67	0.00	0.00	14639.13	8040.21	1324.33	14639.13	0.00	0.00	4701.35	9937.78
+	Routine Care Costs Direct Medical	24003.67	0.00	24003.67	0.00	0.00	14639.13	8040.21	1324.33	14639.13	0.00	0.00	4701.35	9937.78
+	Routine Care Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Toxicity Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs	2637.49	0.00	2637.49	0.00	0.00	2637.49	0.00	0.00	2637.49	0.00	0.00	2346.32	291.17
+	Death Costs Direct Medical	2637.49	0.00	2637.49	0.00	0.00	2637.49	0.00	0.00	2637.49	0.00	0.00	2346.32	291.17
+	Death Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	TB Treatment Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+Undiscounted	Obsv CD4	CD4All
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Total Patient Mths	40870187.50	40776800.50	93387.00	4425.00	19248.50	29729.00	20035.00	19949.50	25069.50	4659.50	444.00	27324.50	2404.50
+	Total Costs	2662438.00	0.00	2662438.00	8655.90	414893.60	763012.84	845947.54	629928.13	663507.64	99505.20	10411.61	675637.06	87375.77
+	ART Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Prophylaxis Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs	2638720.54	0.00	2638720.54	8655.90	414893.60	739295.38	845947.54	629928.13	641614.60	97680.78	10411.61	653744.02	85551.35
+	Routine Care Costs Direct Medical	2638720.54	0.00	2638720.54	8655.90	414893.60	739295.38	845947.54	629928.13	641614.60	97680.78	10411.61	653744.02	85551.35
+	Routine Care Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Toxicity Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs	23717.46	0.00	23717.46	0.00	0.00	23717.46	0.00	0.00	21893.04	1824.42	0.00	21893.04	1824.42
+	Death Costs Direct Medical	23717.46	0.00	23717.46	0.00	0.00	23717.46	0.00	0.00	21893.04	1824.42	0.00	21893.04	1824.42
+	Death Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	TB Treatment Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+Undiscounted	Obsv CD4	CD4Unknown
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Total Patient Mths	40780795.50	40776800.50	3995.00	3995.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Total Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	ART Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Prophylaxis Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Toxicity Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	TB Treatment Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+Undiscounted	Obsv CD4	CD4vhi
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Total Patient Mths	65929.50	0.00	65929.50	430.00	15116.50	19058.00	14837.50	16487.50	14881.50	4176.50	244.00	17963.00	1095.00
+	Total Costs	1709891.38	0.00	1709891.38	8655.90	304308.13	395813.32	514803.66	486310.38	309915.96	85897.37	4911.72	372548.20	23265.12
+	ART Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Prophylaxis Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs	1697728.58	0.00	1697728.58	8655.90	304308.13	383650.52	514803.66	486310.38	299577.58	84072.95	4911.72	361601.68	22048.84
+	Routine Care Costs Direct Medical	1697728.58	0.00	1697728.58	8655.90	304308.13	383650.52	514803.66	486310.38	299577.58	84072.95	4911.72	361601.68	22048.84
+	Routine Care Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Toxicity Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs	12162.80	0.00	12162.80	0.00	0.00	12162.80	0.00	0.00	10338.38	1824.42	0.00	10946.52	1216.28
+	Death Costs Direct Medical	12162.80	0.00	12162.80	0.00	0.00	12162.80	0.00	0.00	10338.38	1824.42	0.00	10946.52	1216.28
+	Death Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	TB Treatment Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+Undiscounted	Obsv CD4	CD4_hi
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Total Patient Mths	16840.00	0.00	16840.00	0.00	4023.00	6151.50	3317.50	3348.00	5811.50	340.00	166.00	5546.50	605.00
+	Total Costs	598113.00	0.00	598113.00	0.00	107102.92	165570.86	188494.44	136944.78	156526.55	9044.31	4418.92	149465.76	16105.10
+	ART Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Prophylaxis Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs	596288.58	0.00	596288.58	0.00	107102.92	163746.44	188494.44	136944.78	154702.13	9044.31	4418.92	147641.34	16105.10
+	Routine Care Costs Direct Medical	596288.58	0.00	596288.58	0.00	107102.92	163746.44	188494.44	136944.78	154702.13	9044.31	4418.92	147641.34	16105.10
+	Routine Care Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Toxicity Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs	1824.42	0.00	1824.42	0.00	0.00	1824.42	0.00	0.00	1824.42	0.00	0.00	1824.42	0.00
+	Death Costs Direct Medical	1824.42	0.00	1824.42	0.00	0.00	1824.42	0.00	0.00	1824.42	0.00	0.00	1824.42	0.00
+	Death Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	TB Treatment Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+Undiscounted	Obsv CD4	CD4mhi
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Total Patient Mths	5415.00	0.00	5415.00	0.00	109.00	3682.50	1562.50	61.00	3539.50	143.00	34.00	3307.50	375.00
+	Total Costs	229869.27	0.00	229869.27	0.00	3482.55	118856.16	105581.60	1948.95	114292.64	4563.52	1080.97	106874.91	11981.25
+	ART Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Prophylaxis Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs	228652.99	0.00	228652.99	0.00	3482.55	117639.88	105581.60	1948.95	113076.36	4563.52	1080.97	105658.63	11981.25
+	Routine Care Costs Direct Medical	228652.99	0.00	228652.99	0.00	3482.55	117639.88	105581.60	1948.95	113076.36	4563.52	1080.97	105658.63	11981.25
+	Routine Care Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Toxicity Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs	1216.28	0.00	1216.28	0.00	0.00	1216.28	0.00	0.00	1216.28	0.00	0.00	1216.28	0.00
+	Death Costs Direct Medical	1216.28	0.00	1216.28	0.00	0.00	1216.28	0.00	0.00	1216.28	0.00	0.00	1216.28	0.00
+	Death Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	TB Treatment Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+Undiscounted	Obsv CD4	CD4mlo
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Total Patient Mths	777.50	0.00	777.50	0.00	0.00	592.00	157.50	28.00	592.00	0.00	0.00	447.00	145.00
+	Total Costs	60953.33	0.00	60953.33	0.00	0.00	44613.45	14400.60	1939.28	44613.45	0.00	0.00	34570.75	10042.70
+	ART Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Prophylaxis Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs	57304.49	0.00	57304.49	0.00	0.00	40964.61	14400.60	1939.28	40964.61	0.00	0.00	30921.91	10042.70
+	Routine Care Costs Direct Medical	57304.49	0.00	57304.49	0.00	0.00	40964.61	14400.60	1939.28	40964.61	0.00	0.00	30921.91	10042.70
+	Routine Care Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Toxicity Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs	3648.84	0.00	3648.84	0.00	0.00	3648.84	0.00	0.00	3648.84	0.00	0.00	3648.84	0.00
+	Death Costs Direct Medical	3648.84	0.00	3648.84	0.00	0.00	3648.84	0.00	0.00	3648.84	0.00	0.00	3648.84	0.00
+	Death Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	TB Treatment Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+Undiscounted	Obsv CD4	CD4_lo
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Total Patient Mths	115.50	0.00	115.50	0.00	0.00	59.00	43.50	13.00	59.00	0.00	0.00	18.00	41.00
+	Total Costs	9359.97	0.00	9359.97	0.00	0.00	4086.34	4373.25	900.38	4086.34	0.00	0.00	1246.68	2839.66
+	ART Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Prophylaxis Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs	9359.97	0.00	9359.97	0.00	0.00	4086.34	4373.25	900.38	4086.34	0.00	0.00	1246.68	2839.66
+	Routine Care Costs Direct Medical	9359.97	0.00	9359.97	0.00	0.00	4086.34	4373.25	900.38	4086.34	0.00	0.00	1246.68	2839.66
+	Routine Care Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Toxicity Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	TB Treatment Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+Undiscounted	Obsv CD4	CD4vlo
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Total Patient Mths	314.50	0.00	314.50	0.00	0.00	186.00	116.50	12.00	186.00	0.00	0.00	42.50	143.50
+	Total Costs	54251.05	0.00	54251.05	0.00	0.00	34072.70	18294.00	1884.36	34072.70	0.00	0.00	10930.76	23141.94
+	ART Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Prophylaxis Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	CD4 Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HVL Test Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Clinic Visit Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs	49385.93	0.00	49385.93	0.00	0.00	29207.58	18294.00	1884.36	29207.58	0.00	0.00	6673.77	22533.80
+	Routine Care Costs Direct Medical	49385.93	0.00	49385.93	0.00	0.00	29207.58	18294.00	1884.36	29207.58	0.00	0.00	6673.77	22533.80
+	Routine Care Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Routine Care Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	General Medicine Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	OI Treatment Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Medical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Untreated Acute OI Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Toxicity Costs	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs	4865.12	0.00	4865.12	0.00	0.00	4865.12	0.00	0.00	4865.12	0.00	0.00	4256.98	608.14
+	Death Costs Direct Medical	4865.12	0.00	4865.12	0.00	0.00	4865.12	0.00	0.00	4865.12	0.00	0.00	4256.98	608.14
+	Death Costs Direct Nonmedical	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Time	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Death Costs Indirect	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	HIV Screening Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Tests Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	Lab Staging Misc Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+	TB Treatment Cost	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+
+	Obsv CD4	CD4vlo
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Toxicity Event Quantity	0	0	0	0	0	0	0	0	0	0	0	0	0
+	Tb Event Quantity	0	0	0	0	0	0	0	0	0	0	0	0	0
+	OI Event Quantity	35	0	35	0	0	25	10	0	25	0	0	10	15
+	Deaths	11	0	11	0	0	8	3	0	8	0	0	7	1
+	Num CD4 Tests	228	0	228	0	0	178	38	12	178	0	0	39	139
+	Num HVL Tests	228	0	228	0	0	178	38	12	178	0	0	39	139
+	Num Clinic Visits	228	0	228	0	0	178	38	12	178	0	0	39	139
+	Num HIV Tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+	Num Lab Staging Tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+
+	Obsv CD4	CD4_lo
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Toxicity Event Quantity	0	0	0	0	0	0	0	0	0	0	0	0	0
+	Tb Event Quantity	0	0	0	0	0	0	0	0	0	0	0	0	0
+	OI Event Quantity	7	0	7	0	0	7	0	0	7	0	0	4	3
+	Deaths	1	0	1	0	0	0	1	0	0	0	0	0	0
+	Num CD4 Tests	99	0	99	0	0	58	28	13	58	0	0	18	40
+	Num HVL Tests	99	0	99	0	0	58	28	13	58	0	0	18	40
+	Num Clinic Visits	99	0	99	0	0	58	28	13	58	0	0	18	40
+	Num HIV Tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+	Num Lab Staging Tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+
+	Obsv CD4	CD4mlo
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Toxicity Event Quantity	0	0	0	0	0	0	0	0	0	0	0	0	0
+	Tb Event Quantity	0	0	0	0	0	0	0	0	0	0	0	0	0
+	OI Event Quantity	53	0	53	0	0	48	5	0	48	0	0	35	13
+	Deaths	11	0	11	0	0	6	5	0	6	0	0	6	0
+	Num CD4 Tests	677	0	677	0	0	582	67	28	582	0	0	438	144
+	Num HVL Tests	677	0	677	0	0	582	67	28	582	0	0	438	144
+	Num Clinic Visits	677	0	677	0	0	582	67	28	582	0	0	438	144
+	Num HIV Tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+	Num Lab Staging Tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+
+	Obsv CD4	CD4mhi
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Toxicity Event Quantity	0	0	0	0	0	0	0	0	0	0	0	0	0
+	Tb Event Quantity	0	0	0	0	0	0	0	0	0	0	0	0	0
+	OI Event Quantity	370	0	370	0	0	240	130	0	236	4	3	210	30
+	Deaths	42	0	42	0	0	3	39	0	3	0	0	3	0
+	Num CD4 Tests	3861	0	3861	0	109	3607	84	61	3472	135	32	3239	368
+	Num HVL Tests	3861	0	3861	0	109	3607	84	61	3472	135	32	3239	368
+	Num Clinic Visits	3861	0	3861	0	109	3607	84	61	3472	135	32	3239	368
+	Num HIV Tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+	Num Lab Staging Tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+
+	Obsv CD4	CD4_hi
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Toxicity Event Quantity	0	0	0	0	0	0	0	0	0	0	0	0	0
+	Tb Event Quantity	0	0	0	0	0	0	0	0	0	0	0	0	0
+	OI Event Quantity	951	0	951	0	203	297	215	236	275	22	12	278	19
+	Deaths	102	0	102	0	14	5	51	32	5	0	0	5	0
+	Num CD4 Tests	10080	0	10080	0	3941	6048	34	57	5711	337	166	5452	596
+	Num HVL Tests	10080	0	10080	0	3941	6048	34	57	5711	337	166	5452	596
+	Num Clinic Visits	10080	0	10080	0	3941	6048	34	57	5711	337	166	5452	596
+	Num HIV Tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+	Num Lab Staging Tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+
+	Obsv CD4	CD4vhi
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Toxicity Event Quantity	0	0	0	0	0	0	0	0	0	0	0	0	0
+	Tb Event Quantity	0	0	0	0	0	0	0	0	0	0	0	0	0
+	OI Event Quantity	1164	0	1164	0	2	5	603	554	2	3	0	5	0
+	Deaths	263	0	263	0	37	20	119	87	17	3	0	18	2
+	Num CD4 Tests	34079	0	34079	430	14831	18741	25	52	14628	4113	241	17665	1076
+	Num HVL Tests	34079	0	34079	430	14831	18741	25	52	14628	4113	241	17665	1076
+	Num Clinic Visits	34079	0	34079	430	14831	18741	25	52	14628	4113	241	17665	1076
+	Num HIV Tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+	Num Lab Staging Tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+
+	Obsv CD4	CD4Unknown
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Toxicity Event Quantity	0	0	0	0	0	0	0	0	0	0	0	0	0
+	Tb Event Quantity	0	0	0	0	0	0	0	0	0	0	0	0	0
+	OI Event Quantity	165	0	165	165	0	0	0	0	0	0	0	0	0
+	Deaths	89765	89733	32	32	0	0	0	0	0	0	0	0	0
+	Num CD4 Tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+	Num HVL Tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+	Num Clinic Visits	0	0	0	0	0	0	0	0	0	0	0	0	0
+	Num HIV Tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+	Num Lab Staging Tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+
+	Obsv CD4	CD4All
+		All Patients	HIV-	HIV+	HIV+ Pre Linkage	HIV+ Pre ART In Care	On ART	LTFU After ART	LTFU Never had ART	RTC	On ART Never Lost	On ART first 6 mths	On 1st Line ART	On 2nd Line or Higher ART
+	Toxicity Event Quantity	0	0	0	0	0	0	0	0	0	0	0	0	0
+	Tb Event Quantity	0	0	0	0	0	0	0	0	0	0	0	0	0
+	OI Event Quantity	2745	0	2745	165	205	622	963	790	593	29	15	542	80
+	Deaths	90195	89733	462	32	51	42	218	119	39	3	0	39	3
+	Num CD4 Tests	49024	0	49024	430	18881	29214	276	223	24629	4585	439	26851	2363
+	Num HVL Tests	49024	0	49024	430	18881	29214	276	223	24629	4585	439	26851	2363
+	Num Clinic Visits	49024	0	49024	430	18881	29214	276	223	24629	4585	439	26851	2363
+	Num HIV Tests	0	0	0	0	0	0	0	0	0	0	0	0	0
+	Num Lab Staging Tests	0	0	0	0	0	0	0	0	0	0	0	0	0
