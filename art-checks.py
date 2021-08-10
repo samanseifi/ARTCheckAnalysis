@@ -1,15 +1,11 @@
 #!/usr/local/bin/python3
 
 # This is a script to analyse ARTRollOut data to compare against the care continuum data for Miami:
-# HIV INTEGRATED EPIDEMIOLOGICAL PROFILE, Florida, 2018
+# HIV INTEGRATED EPIDEMIOLOGICAL PROFILE, Florida, 2019
 
 import sys
 import os
 import numpy as np
-
-import matplotlib.pyplot as plt
-from matplotlib.figure import Figure
-from matplotlib.ticker import MaxNLocator
 
 class QoI:
     """ QoI is a generic class for quantities of interest such as: Number of Infected, Number of Detected, ...
@@ -51,6 +47,13 @@ class Genders:
         assert (len(gender_data) == 2)  # Confirm the size
         self.males = gender_data[0]
         self.females = gender_data[1]
+
+    # Getters public methods!
+    def get_males(self):
+        return self.males
+
+    def get_females(self):
+        return self.females
 
     def sum(self):
         """ Sum of males and females = total numbers """
@@ -257,6 +260,7 @@ if __name__ == '__main__':
     all_2016_checks = []
     all_2017_checks = []
     all_2018_checks = []
+    all_2019_checks = []
 
     # These loops walk through all directories finding ARTRollout files starting from wherever this script is saved
     for root, dirs, files in os.walk(path_to_batch):
@@ -319,26 +323,27 @@ if __name__ == '__main__':
                         newdiag = 0
                         newenroll = 0
 
-                # Care Continuum (baseline) data from 2014 to 2018
+                # Care Continuum (baseline) data from 2014 to 2019
                 #
                 # year    in_care    suppressed_VL    in_care_within_30
-                # 2014     0.64           0.46            0.59
-                # 2015     0.64           0.49            0.64
-                # 2016     0.65           0.51            0.62
-                # 2017     0.65           0.52            0.72
-                # 2018     0.69           0.59            0.83
+                # 2014     0.67           0.52            0.64
+                # 2015     0.68           0.57            0.68
+                # 2016     0.70           0.59            0.70
+                # 2017     0.71           0.60            0.79
+                # 2018     0.72           0.62            0.84
+                # 2019     0.73           0.62            0.85
                 #
                 # Note: The these numbers are entered manually in the following check procedure
-                year_2014 = [0.64, 0.46, 0.59]
-                year_2015 = [0.64, 0.49, 0.64]
-                year_2016 = [0.65, 0.51, 0.62]
-                year_2017 = [0.65, 0.52, 0.72]
-                year_2018 = [0.69, 0.59, 0.83]
+                year_2014 = [0.67, 0.52, 0.64]
+                year_2015 = [0.68, 0.57, 0.68]
+                year_2016 = [0.70, 0.59, 0.70]
+                year_2017 = [0.71, 0.60, 0.79]
+                year_2018 = [0.72, 0.62, 0.84]
+                year_2019 = [0.73, 0.62, 0.85]
 
                 #  Write out the header!
                 f1.write('Year\t In Care%\t Suppr. VL%\t In Care in 30 days% \n')
                 f2.write('Year\t In Care%\t Suppr. VL%\t In Care in 30 days% \n')
-
 
                 # First loop through all of the yearly data!
                 for i in range(0, len(nodal_table)):
@@ -420,24 +425,25 @@ if __name__ == '__main__':
                         # Appending numerics for plotting
                         all_2018_checks.append([checks_2018[0][1], checks_2018[1][1], checks_2018[2][1], file])
 
-                # End of looping through yearly data
+                        # 2019 Checks!
+                        if nodal_table[i].year == 2019:
+                            checks_2019 = perform_all_checks(nodal_table[i], year_2019)
 
-                plt.plot([2014, 2015, 2016, 2017, 2018],
-                         [checks_2014[0][1], checks_2015[0][1], checks_2016[0][1], checks_2017[0][1], checks_2018[0][1]])
+                            # First outputs the Pass/Fail outputs
+                            f1.write("2019:\t " + checks_2019[0][0] + "\t\t" + checks_2019[1][0] + "\t\t" +
+                                     checks_2019[2][0] + "\n")
 
+                            # Then outputs the numerics
+                            f2.write("2019:\t " + reduce_digits(checks_2019[0][1]) + "\t\t" +
+                                     reduce_digits(checks_2019[1][1]) + "\t\t" + reduce_digits(
+                                checks_2019[2][1]) + "\n")
+
+                            # Appending numerics for plotting
+                            all_2019_checks.append([checks_2019[0][1], checks_2019[1][1], checks_2019[2][1], file])
 
                 f1.write("\n")  # Next line for next result's file data (PASS/FAIL)
                 f2.write("\n")  # Next line for next result's file data (Numerics)
-
-            # End of if condition to check ART file!
-
-        # End of loop through ART Excel files
-
-
-    plt.savefig('in_care.png')
-
     f1.close()  # End of file (PASS/FAIL)
     f2.close()  # End of file (Numerics)
 
     # Plotting in-care
-
