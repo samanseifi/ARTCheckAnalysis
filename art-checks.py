@@ -7,7 +7,9 @@ import sys
 import os
 import numpy as np
 
-import plotting
+import matplotlib.pyplot as plt
+from matplotlib.figure import Figure
+from matplotlib.ticker import MaxNLocator
 
 class QoI:
     """ QoI is a generic class for quantities of interest such as: Number of Infected, Number of Detected, ...
@@ -337,6 +339,7 @@ if __name__ == '__main__':
                 f1.write('Year\t In Care%\t Suppr. VL%\t In Care in 30 days% \n')
                 f2.write('Year\t In Care%\t Suppr. VL%\t In Care in 30 days% \n')
 
+
                 # First loop through all of the yearly data!
                 for i in range(0, len(nodal_table)):
                     # Perform Checks!
@@ -417,9 +420,24 @@ if __name__ == '__main__':
                         # Appending numerics for plotting
                         all_2018_checks.append([checks_2018[0][1], checks_2018[1][1], checks_2018[2][1], file])
 
+                # End of looping through yearly data
+
+                plt.plot([2014, 2015, 2016, 2017, 2018],
+                         [checks_2014[0][1], checks_2015[0][1], checks_2016[0][1], checks_2017[0][1], checks_2018[0][1]])
+
+
                 f1.write("\n")  # Next line for next result's file data (PASS/FAIL)
                 f2.write("\n")  # Next line for next result's file data (Numerics)
+
+            # End of if condition to check ART file!
+
+        # End of loop through ART Excel files
+
+
+    plt.savefig('in_care.png')
+
     f1.close()  # End of file (PASS/FAIL)
     f2.close()  # End of file (Numerics)
 
     # Plotting in-care
+
