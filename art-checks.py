@@ -11,8 +11,6 @@ import numpy as np
 
 # Plotting requirements!
 import matplotlib.pyplot as plt
-from matplotlib.figure import Figure
-from matplotlib.ticker import MaxNLocator
 
 
 class QoI:
@@ -243,16 +241,20 @@ def perform_all_checks(nodal_table_element, year_baselines):
     return [in_care_check, suppressed_VL_check, within_30_check]
 
 
-def plotting(all_checks_list, baseline_str, filename, x_label, y_label):
+def plotting(all_data, filename, file_format, x_label, y_label):
     """ Plotting all the runs in a single plot"""
     fig = plt.figure()
-    for i in range(0, len(all_checks_list)):
-        year_data = all_checks_list[i][0:6]  # for 2014 to 2019 data stored
-        plt.plot([2014, 2015, 2016, 2017, 2018, 2019], year_data, '--', linewidth=0.5)
+    for i in range(0, len(all_data) - 1):  # Loop through all the simulated data
+        year_data = all_data[i][0:6]     # for 2014 to 2019 data stored
+        plt.plot([2014, 2015, 2016, 2017, 2018, 2019], year_data, '--', linewidth=0.5, color='tab:gray')
+
+    # The last in the data list is the baseline so plot it with different coloring!
+    plt.plot([2014, 2015, 2016, 2017, 2018, 2019], all_data[len(all_data) - 1][0:6], 'bo-', linewidth=1.5)
+    # Put the axis the labels
     plt.xlabel(x_label)
     plt.ylabel(y_label)
-    # plt.yaxis.set_major_locator(MaxNLocator(integer=True))
-    plt.savefig(filename)
+    # Save it in a file!
+    plt.savefig(filename+'.'+file_format, format=file_format, dpi=1200)
 
 
 # Care Continuum (baseline) data from 2014 to 2019
@@ -473,7 +475,17 @@ if __name__ == '__main__':
     f2.close()  # End of file (Numerics)
 
     # Plotting all of the simulated data
-    plotting(all_checks_thirty, 'in_care_within30.pdf', 'careinthirty', 'Year', 'In Care Within 30 Days%')
-    plotting(all_checks_incare, 'in_care.pdf', 'incare', 'Year', 'In Care%')
-    plotting(all_checks_suppvl, 'supp_vl.pdf', 'suppvl', 'Year', 'Suppressed Vl%')
+
+    # Adding (the last item in the list) the base line to all of data before sending for plotting
+    all_thirty = all_checks_thirty
+    all_thirty.append([year_2014[2], year_2015[2], year_2016[2], year_2017[2], year_2018[2], year_2019[2]])
+    all_incare = all_checks_incare
+    all_incare.append([year_2014[0], year_2015[0], year_2016[0], year_2017[0], year_2018[0], year_2019[0]])
+    all_suppvl = all_checks_suppvl
+    all_suppvl.append([year_2014[1], year_2015[1], year_2016[1], year_2017[1], year_2018[1], year_2019[1]])
+
+    # Now sending for plotting specifying filename, format, xlabel, ylabel
+    plotting(all_thirty, 'in_care_within30', 'pdf', 'Year', 'In Care Within 30 Days%')
+    plotting(all_incare, 'in_care', 'pdf', 'Year', 'In Care%')
+    plotting(all_suppvl, 'supp_vl', 'pdf', 'Year', 'Suppressed Vl%')
 
