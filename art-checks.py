@@ -5,7 +5,15 @@
 
 import sys
 import os
+
+# For numerical computation
 import numpy as np
+
+# Plotting requirements!
+import matplotlib.pyplot as plt
+from matplotlib.figure import Figure
+from matplotlib.ticker import MaxNLocator
+
 
 class QoI:
     """ QoI is a generic class for quantities of interest such as: Number of Infected, Number of Detected, ...
@@ -235,6 +243,37 @@ def perform_all_checks(nodal_table_element, year_baselines):
     return [in_care_check, suppressed_VL_check, within_30_check]
 
 
+def plotting(all_checks_list, baseline_str, filename, x_label, y_label):
+    """ Plotting all the runs in a single plot"""
+    fig = plt.figure()
+    for i in range(0, len(all_checks_list)):
+        year_data = all_checks_list[i][0:6]  # for 2014 to 2019 data stored
+        plt.plot([2014, 2015, 2016, 2017, 2018, 2019], year_data, '--', linewidth=0.5)
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+    # plt.yaxis.set_major_locator(MaxNLocator(integer=True))
+    plt.savefig(filename)
+
+
+# Care Continuum (baseline) data from 2014 to 2019
+#
+# year    in_care    suppressed_VL    in_care_within_30
+# 2014     0.67           0.52            0.64
+# 2015     0.68           0.57            0.68
+# 2016     0.70           0.59            0.70
+# 2017     0.71           0.60            0.79
+# 2018     0.72           0.62            0.84
+# 2019     0.73           0.62            0.85
+#
+# Note: The these numbers are entered manually in the following check procedure
+year_2014 = [0.67, 0.52, 0.64]
+year_2015 = [0.68, 0.57, 0.68]
+year_2016 = [0.70, 0.59, 0.70]
+year_2017 = [0.71, 0.60, 0.79]
+year_2018 = [0.72, 0.62, 0.84]
+year_2019 = [0.73, 0.62, 0.85]
+
+
 # Main Program!
 if __name__ == '__main__':
 
@@ -255,12 +294,9 @@ if __name__ == '__main__':
     f2 = open('check_summary_numerics.txt', 'w')
 
     # Containers for plotting
-    all_2014_checks = []
-    all_2015_checks = []
-    all_2016_checks = []
-    all_2017_checks = []
-    all_2018_checks = []
-    all_2019_checks = []
+    all_checks_incare = []
+    all_checks_suppvl = []
+    all_checks_thirty = []
 
     # These loops walk through all directories finding ARTRollout files starting from wherever this script is saved
     for root, dirs, files in os.walk(path_to_batch):
@@ -323,32 +359,22 @@ if __name__ == '__main__':
                         newdiag = 0
                         newenroll = 0
 
-                # Care Continuum (baseline) data from 2014 to 2019
-                #
-                # year    in_care    suppressed_VL    in_care_within_30
-                # 2014     0.67           0.52            0.64
-                # 2015     0.68           0.57            0.68
-                # 2016     0.70           0.59            0.70
-                # 2017     0.71           0.60            0.79
-                # 2018     0.72           0.62            0.84
-                # 2019     0.73           0.62            0.85
-                #
-                # Note: The these numbers are entered manually in the following check procedure
-                year_2014 = [0.67, 0.52, 0.64]
-                year_2015 = [0.68, 0.57, 0.68]
-                year_2016 = [0.70, 0.59, 0.70]
-                year_2017 = [0.71, 0.60, 0.79]
-                year_2018 = [0.72, 0.62, 0.84]
-                year_2019 = [0.73, 0.62, 0.85]
-
                 #  Write out the header!
                 f1.write('Year\t In Care%\t Suppr. VL%\t In Care in 30 days% \n')
                 f2.write('Year\t In Care%\t Suppr. VL%\t In Care in 30 days% \n')
 
+                # Only checks against years 2014, 2015, 2016, 2017, 2018 and 2019
+                checks_2014 = []
+                checks_2015 = []
+                checks_2016 = []
+                checks_2017 = []
+                checks_2018 = []
+                checks_2019 = []
+
                 # First loop through all of the yearly data!
                 for i in range(0, len(nodal_table)):
                     # Perform Checks!
-                    # Only checks against years 2014, 2015, 2016, 2017 and 2018
+
                     # 2014 Checks!
                     if nodal_table[i].year == 2014:
                         checks_2014 = perform_all_checks(nodal_table[i], year_2014)
@@ -360,9 +386,6 @@ if __name__ == '__main__':
                         # Then outputs the numerics
                         f2.write("2014:\t " + reduce_digits(checks_2014[0][1]) + "\t\t" +
                                  reduce_digits(checks_2014[1][1]) + "\t\t" + reduce_digits(checks_2014[2][1]) + "\n")
-
-                        # Appending numerics for plotting
-                        all_2014_checks.append([checks_2014[0][1], checks_2014[1][1], checks_2014[2][1], file])
 
                     # 2015 Checks!
                     if nodal_table[i].year == 2015:
@@ -376,9 +399,6 @@ if __name__ == '__main__':
                         f2.write("2015:\t " + reduce_digits(checks_2015[0][1]) + "\t\t" +
                                  reduce_digits(checks_2015[1][1]) + "\t\t" + reduce_digits(checks_2015[2][1]) + "\n")
 
-                        # Appending numerics for plotting
-                        all_2015_checks.append([checks_2015[0][1], checks_2015[1][1], checks_2015[2][1], file])
-
                     # 2016 Checks!
                     if nodal_table[i].year == 2016:
                         checks_2016 = perform_all_checks(nodal_table[i], year_2016)
@@ -390,9 +410,6 @@ if __name__ == '__main__':
                         # Then outputs the numerics
                         f2.write("2016:\t " + reduce_digits(checks_2016[0][1]) + "\t\t" +
                                  reduce_digits(checks_2016[1][1]) + "\t\t" + reduce_digits(checks_2016[2][1]) + "\n")
-
-                        # Appending numerics for plotting
-                        all_2016_checks.append([checks_2016[0][1], checks_2016[1][1], checks_2016[2][1], file])
 
                     # 2017 Checks!
                     if nodal_table[i].year == 2017:
@@ -407,9 +424,6 @@ if __name__ == '__main__':
                                  reduce_digits(checks_2017[1][1]) + "\t\t" +
                                  reduce_digits(checks_2017[2][1]) + "\n")
 
-                        # Appending numerics for plotting
-                        all_2017_checks.append([checks_2017[0][1], checks_2017[1][1], checks_2017[2][1], file])
-
                     # 2018 Checks!
                     if nodal_table[i].year == 2018:
                         checks_2018 = perform_all_checks(nodal_table[i], year_2018)
@@ -422,28 +436,45 @@ if __name__ == '__main__':
                         f2.write("2018:\t " + reduce_digits(checks_2018[0][1]) + "\t\t" +
                                  reduce_digits(checks_2018[1][1]) + "\t\t" + reduce_digits(checks_2018[2][1]) + "\n")
 
-                        # Appending numerics for plotting
-                        all_2018_checks.append([checks_2018[0][1], checks_2018[1][1], checks_2018[2][1], file])
+                    # 2019 Checks!
+                    if nodal_table[i].year == 2019:
+                        checks_2019 = perform_all_checks(nodal_table[i], year_2019)
 
-                        # 2019 Checks!
-                        if nodal_table[i].year == 2019:
-                            checks_2019 = perform_all_checks(nodal_table[i], year_2019)
+                        # First outputs the Pass/Fail outputs
+                        f1.write("2019:\t " + checks_2019[0][0] + "\t\t" + checks_2019[1][0] + "\t\t" +
+                                 checks_2019[2][0] + "\n")
 
-                            # First outputs the Pass/Fail outputs
-                            f1.write("2019:\t " + checks_2019[0][0] + "\t\t" + checks_2019[1][0] + "\t\t" +
-                                     checks_2019[2][0] + "\n")
+                        # Then outputs the numerics
+                        f2.write("2019:\t " + reduce_digits(checks_2019[0][1]) + "\t\t" +
+                                 reduce_digits(checks_2019[1][1]) + "\t\t" + reduce_digits(checks_2019[2][1]) + "\n")
 
-                            # Then outputs the numerics
-                            f2.write("2019:\t " + reduce_digits(checks_2019[0][1]) + "\t\t" +
-                                     reduce_digits(checks_2019[1][1]) + "\t\t" + reduce_digits(
-                                checks_2019[2][1]) + "\n")
+                # Appending numerics for plotting
+                all_checks_incare.append([checks_2014[0][1], checks_2015[0][1],
+                                          checks_2016[0][1], checks_2017[0][1],
+                                          checks_2018[0][1], checks_2019[0][1], file])
 
-                            # Appending numerics for plotting
-                            all_2019_checks.append([checks_2019[0][1], checks_2019[1][1], checks_2019[2][1], file])
+                all_checks_suppvl.append([checks_2014[1][1], checks_2015[1][1],
+                                          checks_2016[1][1], checks_2017[1][1],
+                                          checks_2018[1][1], checks_2019[1][1], file])
+
+                all_checks_thirty.append([checks_2014[2][1], checks_2015[2][1],
+                                          checks_2016[2][1], checks_2017[2][1],
+                                          checks_2018[2][1], checks_2019[2][1], file])
+
+                # End of loop through yearly data
 
                 f1.write("\n")  # Next line for next result's file data (PASS/FAIL)
                 f2.write("\n")  # Next line for next result's file data (Numerics)
+
+            # End of IF condition to check whether it finds ART file!
+
+        # End of loop through ART Excel files
+
     f1.close()  # End of file (PASS/FAIL)
     f2.close()  # End of file (Numerics)
 
-    # Plotting in-care
+    # Plotting all of the simulated data
+    plotting(all_checks_thirty, 'in_care_within30.pdf', 'careinthirty', 'Year', 'In Care Within 30 Days%')
+    plotting(all_checks_incare, 'in_care.pdf', 'incare', 'Year', 'In Care%')
+    plotting(all_checks_suppvl, 'supp_vl.pdf', 'suppvl', 'Year', 'Suppressed Vl%')
+
