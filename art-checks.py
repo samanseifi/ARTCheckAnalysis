@@ -157,12 +157,12 @@ class Node:
         """ Returns the time as the year: (e.g. end of month 12th = Year 1, end of month 24th = Year 2, ...) """
         return int(self.__time / 12)
 
-    def get_year(self, time_of_1990):
-        """  Returns the calender year given a time step (month) as the year of 1990
+    def get_year(self, year, month):
+        """  Returns the calender year given a time step (month) and the year
         Example: If the year 1990 is 600th time step (month) therefore this should return end of 12th time step as year
         1941, and end of 24th month as 1942, ...
         """
-        return 1990 - (self.get_year_of_month(time_of_1990) - self.get_time_in_year())
+        return year - (self.get_year_of_month(month) - self.get_time_in_year())
 
 
 class NodeYearly:
@@ -277,17 +277,16 @@ year_2019 = [0.73, 0.62, 0.85]
 # Main Program!
 if __name__ == '__main__':
 
-    # Command arguments the first is the month of the year of 1990 and the second is the path to the batch results
+    # Command arguments:
+    #   first) is the year and the (e.g. 1990)
+    #   second) is the time step that corresponds to that year (e.g. 600)
+    #   third) is path to the batch results giving the current path (e.g results/)
     # Default arguments if nothing entered
-    if len(sys.argv) < 2:
-        year_of_1990 = 12  # 1st argument (default)
-        path_to_batch = '.'  # 2nd argument (default is the current directory)
-    elif len(sys.argv) < 3:
-        year_of_1990 = int(sys.argv[1])
-    # Otherwise take them from command arguments
-    else:
-        year_of_1990 = int(sys.argv[1])
-        path_to_batch = sys.argv[2]
+    year = int(sys.argv[1])
+    month = int(sys.argv[2])
+    path_to_batch = sys.argv[3]
+    if len(sys.argv) != 4:
+        print("Err: Not enough command argument!")
 
     # Creating the check summary file
     f1 = open('check_summary_passfail.txt', 'w')
@@ -350,7 +349,7 @@ if __name__ == '__main__':
                     # if it's the end of the year push data
                     if nodal_data[i].isItDecember():
                         nodal_table.append(
-                            NodeYearly(nodal_data[i].get_year(year_of_1990), nodal_data[i].infected.get_total_number(),
+                            NodeYearly(nodal_data[i].get_year(year, month), nodal_data[i].infected.get_total_number(),
                                        nodal_data[i].detected.get_total_number(),
                                        nodal_data[i].in_care.get_total_number(),
                                        newdiag, newenroll, nodal_data[i].suppresed_VL.get_total_number()))
