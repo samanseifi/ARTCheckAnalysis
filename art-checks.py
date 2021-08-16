@@ -243,13 +243,22 @@ def perform_all_checks(nodal_table_element, year_baselines):
 
 def plotting(all_data, filename, file_format, x_label, y_label):
     """ Plotting all the runs in a single plot"""
+    years = np.array([2014, 2015, 2016, 2017, 2018, 2019])
     fig = plt.figure()
     for i in range(0, len(all_data) - 1):  # Loop through all the simulated data
         year_data = all_data[i][0:6]     # for 2014 to 2019 data stored
-        plt.plot([2014, 2015, 2016, 2017, 2018, 2019], year_data, '--', linewidth=0.5, color='tab:gray')
+        plt.plot(years, year_data, '--', linewidth=0.5, color='tab:gray')
+
+    # Make the Numpy array out of list for creating confidence intervals
+    baseline_arr = np.array(all_data[len(all_data) - 1][0:6])
+    baseline_upper_interval = baseline_arr*(1.1)    # 10% percent upper interval
+    baseline_lower_interval = baseline_arr*(0.9)    # 10% percent lower interval
 
     # The last in the data list is the baseline so plot it with different coloring!
-    plt.plot([2014, 2015, 2016, 2017, 2018, 2019], all_data[len(all_data) - 1][0:6], 'bo-', linewidth=1.5)
+    plt.plot(years, all_data[len(all_data) - 1][0:6], 'bo-', linewidth=1.5)
+    # Fill the plots between upper and lower intervals!
+    plt.fill_between(years, baseline_upper_interval, baseline_lower_interval, color='tab:blue', alpha=0.1)
+
     # Put the axis the labels
     plt.xlabel(x_label)
     plt.ylabel(y_label)
