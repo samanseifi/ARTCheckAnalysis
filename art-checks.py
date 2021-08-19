@@ -189,7 +189,6 @@ class NodeYearly:
         return self.enrolled_in_30 / (self.new_diagnosis + 0.0001)
 
 
-
 # Global functions:
 def parse_data_line(line_str):
     """ Parses the data """
@@ -247,13 +246,13 @@ def plotting(all_data, filename, file_format, x_label, y_label):
     years = np.array([2014, 2015, 2016, 2017, 2018, 2019])
     fig = plt.figure()
     for i in range(0, len(all_data) - 1):  # Loop through all the simulated data
-        year_data = all_data[i][0:6]     # for 2014 to 2019 data stored
+        year_data = all_data[i][0:6]  # for 2014 to 2019 data stored
         plt.plot(years, year_data, '--', linewidth=0.5, color='tab:gray')
 
     # Make the Numpy array out of list for creating confidence intervals
     baseline_arr = np.array(all_data[len(all_data) - 1][0:6])
-    baseline_upper_interval = baseline_arr*(1.1)    # 10% percent upper interval
-    baseline_lower_interval = baseline_arr*(0.9)    # 10% percent lower interval
+    baseline_upper_interval = baseline_arr * (1.1)  # 10% percent upper interval
+    baseline_lower_interval = baseline_arr * (0.9)  # 10% percent lower interval
 
     # The last in the data list is the baseline so plot it with different coloring!
     plt.plot(years, all_data[len(all_data) - 1][0:6], 'bo-', linewidth=1.5)
@@ -264,7 +263,7 @@ def plotting(all_data, filename, file_format, x_label, y_label):
     plt.xlabel(x_label)
     plt.ylabel(y_label)
     # Save it in a file!
-    plt.savefig(filename+'.'+file_format, format=file_format, dpi=1200)
+    plt.savefig(filename + '.' + file_format, format=file_format, dpi=1200)
 
 
 # Care Continuum (baseline) data from 2014 to 2019
@@ -284,7 +283,6 @@ year_2016 = [0.70, 0.59, 0.70]
 year_2017 = [0.71, 0.60, 0.79]
 year_2018 = [0.72, 0.62, 0.84]
 year_2019 = [0.73, 0.62, 0.85]
-
 
 # Main Program!
 if __name__ == '__main__':
@@ -316,6 +314,8 @@ if __name__ == '__main__':
             # This condition makes sure it only takes ARTRollout excel files
             if file.endswith('.xls') and file.__contains__("ARTRollout"):
                 file_name_with_path = os.path.join(root, file)
+
+                print('Extracting data from file:', file_name_with_path)
 
                 # FIRST: print out the corresponding filename
                 f1.write(file + "\n")  # Pass/Fail outputs
@@ -360,11 +360,19 @@ if __name__ == '__main__':
 
                     # if it's the end of the year push data
                     if nodal_data[i].isItDecember():
+                        # if it's december continue for the next two months (End of Feb) but save it for this year
+                        # Have to do it manually for new diagnosis and new enrollement (within 30 days)
+                        newdiag = newdiag + nodal_data[i+1].new_diagnosis.get_total_number() \
+                                  + nodal_data[i+2].new_diagnosis.get_total_number()
+
+                        newenroll = newenroll + nodal_data[i+1].enrolled_in_30.get_total_number() \
+                                    + nodal_data[i+2].enrolled_in_30.get_total_number()
+                        # And can easily call i+2 of the nodal_data
                         nodal_table.append(
-                            NodeYearly(nodal_data[i].get_year(year, month), nodal_data[i].infected.get_total_number(),
-                                       nodal_data[i].detected.get_total_number(),
-                                       nodal_data[i].in_care.get_total_number(),
-                                       newdiag, newenroll, nodal_data[i].suppresed_VL.get_total_number()))
+                            NodeYearly(nodal_data[i+2].get_year(year, month), nodal_data[i+2].infected.get_total_number(),
+                                       nodal_data[i+2].detected.get_total_number(),
+                                       nodal_data[i+2].in_care.get_total_number(),
+                                       newdiag, newenroll, nodal_data[i+2].suppresed_VL.get_total_number()))
 
                         # reset new diagnosis and enrolled in 30 days for next year
                         newdiag = 0
@@ -482,7 +490,10 @@ if __name__ == '__main__':
         # End of loop through ART Excel files
 
     f1.close()  # End of file (PASS/FAIL)
+    print ("Pass/Fail file created!")
+
     f2.close()  # End of file (Numerics)
+    print("Numerics file created!")
 
     # Plotting all of the simulated data
 
@@ -495,7 +506,11 @@ if __name__ == '__main__':
     all_suppvl.append([year_2014[1], year_2015[1], year_2016[1], year_2017[1], year_2018[1], year_2019[1]])
 
     # Now sending for plotting specifying filename, format, xlabel, ylabel
+    print("Generating plots...")
+
     plotting(all_thirty, 'in_care_within30', 'pdf', 'Year', 'In Care Within 30 Days%')
     plotting(all_incare, 'in_care', 'pdf', 'Year', 'In Care%')
     plotting(all_suppvl, 'supp_vl', 'pdf', 'Year', 'Suppressed Vl%')
 
+    # Finishing!
+    print("Done!")
