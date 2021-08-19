@@ -189,6 +189,7 @@ class NodeYearly:
         return self.enrolled_in_30 / (self.new_diagnosis + 0.0001)
 
 
+
 # Global functions:
 def parse_data_line(line_str):
     """ Parses the data """
@@ -345,12 +346,12 @@ if __name__ == '__main__':
                     # Go to next line!
                     line_count += 1
 
-                # Initialize the lists and variables
+                # Initialize the lists and variables for yearly data table
                 nodal_table = []
                 newdiag = 0
                 newenroll = 0
 
-                # Create the data table
+                # Create the yearly data table
                 for i in range(0, len(nodal_data)):
 
                     # Keep adding new diagnosis and enrolled within 30 days until year ends
