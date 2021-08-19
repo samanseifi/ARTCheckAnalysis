@@ -352,7 +352,8 @@ if __name__ == '__main__':
                 newenroll = 0
 
                 # Create the yearly data table
-                for i in range(0, len(nodal_data)):
+                #TODO: It discounts the last two months of simulation
+                for i in range(0, len(nodal_data)-2):   # Forgets the last two months of the simulation
 
                     # Keep adding new diagnosis and enrolled within 30 days until year ends
                     newdiag = newdiag + nodal_data[i].new_diagnosis.get_total_number()
