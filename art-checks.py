@@ -1,6 +1,6 @@
 #!/usr/local/bin/python3
 
-# This is a script to analyse ARTRollOut data to compare against the care continuum data for Miami:
+# This is a script to process ARTRollOut data to compare against the care continuum data for Miami:
 # HIV INTEGRATED EPIDEMIOLOGICAL PROFILE, Florida, 2019
 
 import sys
@@ -42,6 +42,22 @@ class QoI:
     def get_ethnicities(self):
         """ Returns the ethnicities: list[6] """
         return self.__ethnicity
+
+    def get_demographic(self, demographic):
+        """ This is a user selected method to output a given demographic data """
+        if demographic == "WHITE":
+            return self.__ethnicity.get_whites()
+        elif demographic == "BLACK":
+            return self.__ethnicity.get_blacks()
+        elif demographic == "HISPANIC":
+            return self.__ethnicity.get_hispanics()
+        elif demographic == "OTHER":
+            return self.__ethnicity.get_other_races()
+        elif demographic == "TOTAL":
+            return self.__gender.sum()  # This is same as get_total_number() function in this class
+        else:
+            print('Demographic name ', demographic, ' is not defined! \n')
+            return
 
 
 class Genders:
@@ -107,19 +123,19 @@ class Ethnicities:
     # Getters methods
     def get_whites(self):
         """ Get the numbers for population of whites """
-        return self.__WHITE_HISPANIC + self.__WHITE_NON_HISPANIC
+        return self.__WHITE_NON_HISPANIC
 
     def get_blacks(self):
         """ Get the numbers for population of blacks """
-        return self.__BLACK_HISPANIC + self.__BLACK_NON_HISPANIC
+        return self.__BLACK_NON_HISPANIC
 
     def get_other_races(self):
         """ Get the numbers for other population """
-        return self.__OTHER_HISPANIC + self.__OTHER_NON_HISPANIC
+        return self.__OTHER_NON_HISPANIC
 
     def get_hispanics(self):
         """ Get the numbers for population of hispanics """
-        return self.__BLACK_HISPANIC + self.__WHITE_HISPANIC
+        return self.__BLACK_HISPANIC + self.__WHITE_HISPANIC + self.__OTHER_HISPANIC
 
 
 class Node:
@@ -266,7 +282,7 @@ def plotting(all_data, filename, file_format, x_label, y_label):
     plt.savefig(filename + '.' + file_format, format=file_format, dpi=1200)
 
 
-# Care Continuum (baseline) data from 2014 to 2019
+# Care Continuum (baseline) data from 2014 to 2019 for total population
 #
 # year    in_care    suppressed_VL    in_care_within_30
 # 2014     0.67           0.52            0.64
@@ -288,19 +304,33 @@ year_2019 = [0.73, 0.62, 0.85]
 if __name__ == '__main__':
 
     # Command arguments:
-    #   first) is the year and the (e.g. 1990)
-    #   second) is the time step that corresponds to that year (e.g. 600)
-    #   third) is path to the batch results giving the current path (e.g results/)
+    # Variables have "arg_" prefix showing the values are taken from the command line arguments:
+    #
+    # ~$: python3 ARTCheckAnalysis <arg_year> <arg_month> <arg_path_to_batch> <arg_demographics>
+    #
+    #   first: arg_year) is the year and the (e.g. 1990)
+    #   second: arg_month) is the time step that corresponds to that year (e.g. 600)
+    #   third: arg_path_to_batch) is path to the batch results giving the current path (e.g results/)
+    #   fourth: arg_demographics) is a string to show the specific demographic: WHITE, BLACK, HISPANIC, OTHER, TOTAL
     # Default arguments if nothing entered
-    year = int(sys.argv[1])
-    month = int(sys.argv[2])
-    path_to_batch = sys.argv[3]
-    if len(sys.argv) != 4:
+    arg_year = int(sys.argv[1])
+    arg_month = int(sys.argv[2])
+    arg_path_to_batch = sys.argv[3]
+    arg_demographics = sys.argv[4]
+    if len(sys.argv) != 5:
         print("Err: Not enough command argument!")
+    if arg_demographics != "WHITE" or arg_demographics != "BLACK" or \
+            arg_demographics != "HISPANIC" or arg_demographics != 'OTHER':
+        print("Err: Wrong demographics!")
+    if arg_demographics != 'TOTAL':
+        print("WARNING: The Pass/Fail checks are only done against total numbers:")
+        print("TO BE IMPLEMENTED BASED ON DEMOGRAPHICS LATER")
 
-    # Creating the check summary file
-    f1 = open('check_summary_passfail.txt', 'w')
-    f2 = open('check_summary_numerics.txt', 'w')
+    # Creating the check summary files
+    passfail_filename_str = 'check_summary_passfail_'+arg_demographics+'.txt'
+    numerics_filename_str = 'check_summary_numerics_'+arg_demographics+'.txt'
+    f1 = open(passfail_filename_str, 'w')
+    f2 = open(numerics_filename_str, 'w')
 
     # Containers for plotting
     all_checks_incare = []
@@ -308,7 +338,7 @@ if __name__ == '__main__':
     all_checks_thirty = []
 
     # These loops walk through all directories finding ARTRollout files starting from wherever this script is saved
-    for root, dirs, files in os.walk(path_to_batch):
+    for root, dirs, files in os.walk(arg_path_to_batch):
         for file in files:
 
             # This condition makes sure it only takes ARTRollout excel files
@@ -352,28 +382,28 @@ if __name__ == '__main__':
                 newenroll = 0
 
                 # Create the yearly data table
-                #TODO: It discounts the last two months of simulation
-                for i in range(0, len(nodal_data)-2):   # Forgets the last two months of the simulation
+                # TODO: It discounts the last two months of simulation
+                for i in range(0, len(nodal_data) - 4):  # Forgets the last two months of the simulation
 
                     # Keep adding new diagnosis and enrolled within 30 days until year ends
-                    newdiag = newdiag + nodal_data[i].new_diagnosis.get_total_number()
-                    newenroll = newenroll + nodal_data[i].enrolled_in_30.get_total_number()
+                    newdiag = newdiag + nodal_data[i].new_diagnosis.get_demographic(arg_demographics)
+                    newenroll = newenroll + nodal_data[i].enrolled_in_30.get_demographic(arg_demographics)
 
                     # if it's the end of the year push data
                     if nodal_data[i].isItDecember():
                         # if it's december continue for the next two months (End of Feb) but save it for this year
                         # Have to do it manually for new diagnosis and new enrollement (within 30 days)
-                        newdiag = newdiag + nodal_data[i+1].new_diagnosis.get_total_number() \
-                                  + nodal_data[i+2].new_diagnosis.get_total_number()
+                        for j in range(1, 3):
+                            newdiag = newdiag + nodal_data[i + j].new_diagnosis.get_demographic(arg_demographics)
+                            newenroll = newenroll + nodal_data[i + j].enrolled_in_30.get_demographic(arg_demographics)
 
-                        newenroll = newenroll + nodal_data[i+1].enrolled_in_30.get_total_number() \
-                                    + nodal_data[i+2].enrolled_in_30.get_total_number()
                         # And can easily call i+2 of the nodal_data
                         nodal_table.append(
-                            NodeYearly(nodal_data[i+2].get_year(year, month), nodal_data[i+2].infected.get_total_number(),
-                                       nodal_data[i+2].detected.get_total_number(),
-                                       nodal_data[i+2].in_care.get_total_number(),
-                                       newdiag, newenroll, nodal_data[i+2].suppresed_VL.get_total_number()))
+                            NodeYearly(nodal_data[i + 2].get_year(arg_year, arg_month),
+                                       nodal_data[i + 2].infected.get_demographic(arg_demographics),
+                                       nodal_data[i + 2].detected.get_demographic(arg_demographics),
+                                       nodal_data[i + 2].in_care.get_demographic(arg_demographics),
+                                       newdiag, newenroll, nodal_data[i + 2].suppresed_VL.get_demographic(arg_demographics)))
 
                         # reset new diagnosis and enrolled in 30 days for next year
                         newdiag = 0
@@ -491,7 +521,7 @@ if __name__ == '__main__':
         # End of loop through ART Excel files
 
     f1.close()  # End of file (PASS/FAIL)
-    print ("Pass/Fail file created!")
+    print("Pass/Fail file created!")
 
     f2.close()  # End of file (Numerics)
     print("Numerics file created!")
